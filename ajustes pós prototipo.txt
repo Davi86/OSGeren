@@ -1,0 +1,4 @@
+Ajustes pós prototipo. 
+Personalizar Front
+Limpar validação após fechar modal (campos permanecem vermelhos)
+responsividade da tela de OS.

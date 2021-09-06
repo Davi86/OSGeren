@@ -1,0 +1,89 @@
+.linha {
+    cursor: pointer;
+    transition: 0.27s;
+    background-color: rgba(100, 100, 100, 0);
+}
+
+.linha:hover {
+    background-color: rgba(100, 100, 100, 0.1);
+}
+
+.tituloPagina {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.menu-cor {
+    background-image: linear-gradient(to bottom left, #007bff, #22a7f0);
+}
+
+.fonte {
+    color: white;
+    font-family: 'Century Gothic';
+}
+
+.animado {
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#ordemDeServico,
+#ed-ordemDeServico {
+    min-height: 550px;
+}
+
+#formularioOS,
+#ed-formularioOS {
+    padding-top: 15px;
+}
+
+#modalOS {}
+
+#os-aparelho,
+#os-relatorio,
+#ed-os-aparelho,
+#ed-os-relatorio {
+    width: 100%;
+}
+
+#div2 {
+    white-space: nowrap;
+    width: 20em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#ARbtnCliente {}
+
+#ARbtnFuncionarios {}
+
+#ARbtnOrdem {}
+
+#ARbtnFinanceiro {}
+
+#tabelaFinanceiro {
+    max-height: 50vh;
+    overflow: auto;
+}
+
+#tabelaOSAbertoInicial {
+    max-height: 30vh;
+    overflow: auto;
+}
+
+#tabelaOSAprovadoInicial {
+    max-height: 30vh;
+    overflow: auto;
+}
+#tabelaCliente, #tabelaFuncionarios, #tabelaOrdem{
+    max-height: 60vh;
+    overflow: auto;
+}
+
+/*
+#os-relatorio, #ed-os-relatorio{
+    height: 100%;
+    max-height: 490px;
+}*/
